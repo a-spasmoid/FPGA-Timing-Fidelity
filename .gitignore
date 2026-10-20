@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Vivado project/generated state
+*.xpr
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.wcfg
+
+.Xil/
+.cache/
+.gen/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+.srcs/
+
+# Common Vivado generated directories
+*.runs/
+*.gen/
+*.cache/
+*.hw/
+*.ip_user_files/
+
+# Generated implementation artifacts
+*.dcp
+*.bit
+*.bin
+*.ltx
+*.hwh
+*.hwdef
+
+# Simulation outputs
+*.vcd
+*.fst
+*.ghw
+
+# Temporary/editor files
+*~
+*.swp
+*.swo
