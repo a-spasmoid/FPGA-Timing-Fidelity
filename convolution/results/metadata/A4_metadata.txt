@@ -1,0 +1,14 @@
+candidate=A4
+vivado=2026.1
+device=xc7z020clg400-1
+nominal_period_ns=7.0
+candidate_launched_slack_ns=-2.088
+wrapper_to_candidate_slack_ns=2.907
+candidate_wns_ns=-2.088
+T_EDA_ns=9.088000000000001
+wrapper_slack_ns=4.581
+wrapper_Teff_ns=2.4189999999999996
+recovery_slack_ns=2.87
+removal_slack_ns=0.328
+wrapper_guardrail_pass=1
+reset_checks_pass=1

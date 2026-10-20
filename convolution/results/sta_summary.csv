@@ -1,0 +1,8 @@
+rank,candidate,nominal_period_ns,candidate_wns_ns,T_EDA_ns,metadata_provenance
+1,A1,7.000,0.199,6.801,generated_metadata
+2,A5,7.000,-1.270,8.270,generated_metadata
+3,A0,7.000,-2.025,9.025,generated_metadata
+4,A2,7.000,-2.047,9.047,manual_final_archive
+5,A4,7.000,-2.088,9.088,generated_metadata
+6,A6,7.000,-2.154,9.154,generated_metadata
+7,A3,7.000,-2.592,9.592,manual_final_archive
