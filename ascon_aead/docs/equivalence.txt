@@ -1,0 +1,17 @@
+ASCON EQUIVALENCE REGRESSION - 2907244 cycles compared on every DUT
+
+ascon_c0    0 mismatching cycles
+ascon_c1    0 mismatching cycles
+ascon_c2    0 mismatching cycles
+ascon_c3    0 mismatching cycles
+ascon_c4    0 mismatching cycles
+
+reference vs expected values: 4460 operations completed
+0 ciphertext errors, 0 tag errors
+operations cut by reset: 59
+driver timeouts: 0
+
+coverage gate: OK
+
+EQUIV_RESULT: PASS
+(c0..c4 identical to ascon_core on 2907244 cycles; KAT + random + reset sweep + chaos)
