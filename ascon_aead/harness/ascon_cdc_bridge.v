@@ -156,7 +156,6 @@ module ascon_cdc_bridge (
             req_sync_pipe <= 3'b000;
             req_seen      <= 1'b0;
 
-            result_hold   <= 384'd0;
             resp_toggle   <= 1'b0;
 
             dut_state     <= DUT_IDLE;
@@ -190,7 +189,6 @@ module ascon_cdc_bridge (
 
                         // Hold the completed result stable before
                         // advertising completion across the CDC.
-                        result_hold <= cap_res;
                         resp_toggle <= ~resp_toggle;
                         dut_state   <= DUT_IDLE;
 
@@ -199,6 +197,11 @@ module ascon_cdc_bridge (
 
             endcase
         end
+    end
+
+    // result_hold: data bundle, no reset; written exactly when completion is flagged
+    always @(posedge dut_clk) begin
+        if (dut_state == DUT_WAIT && cap_valid) result_hold <= cap_res;
     end
 
     // ============================================================
