@@ -1,0 +1,6 @@
+rank,candidate,nominal_period_ns,candidate_wns_ns,T_EDA_ns,wrapper_Teff_ns,metadata_provenance
+1,c3,4.500,0.235,4.265,4.045,generated_metadata
+2,c2,4.500,0.154,4.346,4.122,generated_metadata
+3,c1,4.500,-0.271,4.771,4.135,generated_metadata
+4,c0,4.500,-0.276,4.776,4.192,generated_metadata
+5,c4,4.500,-0.509,5.009,4.199,generated_metadata
